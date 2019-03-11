@@ -1,20 +1,17 @@
 {
-  "name": "liri-node-app",
+  "name": "hw-solution",
   "version": "1.0.0",
-  "description": "Week 10 Assignment",
-  "main": "index.js",
+  "description": "",
+  "main": "keys.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thedoubleo22/liri-node-app.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thedoubleo22/liri-node-app/issues"
-  },
-  "homepage": "https://github.com/thedoubleo22/liri-node-app#readme"
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.0.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7"
+  }
 }
